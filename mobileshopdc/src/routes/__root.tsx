@@ -1,0 +1,142 @@
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import {
+  Outlet,
+  Link,
+  createRootRouteWithContext,
+  useRouter,
+  HeadContent,
+  Scripts,
+  type ErrorComponentProps,
+} from "@tanstack/react-router";
+import { useEffect, type ReactNode } from "react";
+
+import appCss from "../styles.css?url";
+import { reportLovableError } from "../lib/lovable-error-reporting";
+import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
+import { CartSheet } from "@/components/layout/CartSheet";
+import { SmoothScroll, Cursor, Preloader } from "@/components/layout/Effects";
+import { Toaster } from "@/components/ui/sonner";
+import { ThemeProvider } from "@/components/layout/Theme";
+
+function NotFoundComponent() {
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-background px-4">
+      <div className="max-w-md text-center">
+        <div className="mx-auto flex h-40 w-24 animate-float flex-col items-center justify-center rounded-[1.5rem] border-2 border-border">
+          <div className="flex items-end gap-1">{[1, 2, 3, 4].map((h) => <span key={h} className="w-2 rounded-sm bg-muted animate-pulse" style={{ height: h * 6 }} />)}</div>
+          <p className="mt-3 text-[10px] text-muted-foreground">No service</p>
+        </div>
+        <h1 className="mt-8 font-display text-7xl font-extrabold text-gradient">404</h1>
+        <h2 className="mt-2 text-xl font-semibold text-foreground">Signal lost</h2>
+        <p className="mt-2 text-sm text-muted-foreground">This page dropped out of coverage.</p>
+        <div className="mt-6">
+          <Link to="/" className="inline-flex items-center justify-center rounded-full bg-gradient-brand px-5 py-2 text-sm font-medium text-primary-foreground">Reconnect home</Link>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ErrorComponent({ error, reset }: ErrorComponentProps) {
+  console.error(error);
+  const router = useRouter();
+  useEffect(() => {
+    reportLovableError(error, { boundary: "tanstack_root_error_component" });
+  }, [error]);
+
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-background px-4">
+      <div className="max-w-md text-center">
+        <h1 className="text-xl font-semibold tracking-tight text-foreground">
+          This page didn't load
+        </h1>
+        <p className="mt-2 text-sm text-muted-foreground">
+          Something went wrong on our end. You can try refreshing or head back home.
+        </p>
+        <div className="mt-6 flex flex-wrap justify-center gap-2">
+          <button
+            onClick={() => {
+              router.invalidate();
+              reset();
+            }}
+            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+          >
+            Try again
+          </button>
+          <a
+            href="/"
+            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"
+          >
+            Go home
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
+  head: () => ({
+    meta: [
+      { charSet: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { title: "PHONEX — Your next phone. Perfectly matched." },
+      { name: "description", content: "Shop the latest smartphones, accessories, repairs, trade-ins and 0% EMI at PHONEX." },
+      { property: "og:title", content: "PHONEX — Your next phone. Perfectly matched." },
+      { property: "og:description", content: "Shop the latest smartphones, accessories, repairs, trade-ins and 0% EMI at PHONEX." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700;800&display=swap" },
+      {
+        rel: "stylesheet",
+        href: appCss,
+      },
+      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+    ],
+  }),
+  shellComponent: RootShell,
+  component: RootComponent,
+  notFoundComponent: NotFoundComponent,
+  errorComponent: ErrorComponent,
+});
+
+function RootShell({ children }: { children: ReactNode }) {
+  return (
+    <html lang="en" className="dark">
+      <head>
+        <HeadContent />
+      </head>
+      <body className="grain">
+        {children}
+        <Scripts />
+      </body>
+    </html>
+  );
+}
+
+function RootComponent() {
+  const { queryClient } = Route.useRouteContext();
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider>
+      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+      <SmoothScroll />
+      <Preloader />
+      <Cursor />
+      <Navbar />
+      <main className="min-h-screen">
+        <Outlet />
+      </main>
+      <Footer />
+      <CartSheet />
+      <Toaster position="bottom-center" />
+      </ThemeProvider>
+    </QueryClientProvider>
+  );
+}
