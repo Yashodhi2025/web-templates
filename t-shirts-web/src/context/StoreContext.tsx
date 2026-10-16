@@ -5,6 +5,8 @@ import { Product, CartItem } from '@/types/store';
 import { PRODUCTS } from '@/data/products';
 
 interface StoreContextType {
+  selectedNavigation: string | null;
+  setSelectedNavigation: (label: string) => void;
   cart: CartItem[];
   addToCart: (product: Product, selectedColor: string, selectedSize: string, quantity?: number) => void;
   removeFromCart: (productId: string, selectedColor: string, selectedSize: string) => void;
@@ -46,6 +48,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     ];
   });
 
+  const [selectedNavigation, setSelectedNavigation] = useState<string | null>(null);
   const [wishlist, setWishlist] = useState<string[]>(['prod-02', 'prod-04']);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isWishlistOpen, setIsWishlistOpen] = useState(false);
@@ -136,6 +139,8 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   return (
     <StoreContext.Provider
       value={{
+        selectedNavigation,
+        setSelectedNavigation,
         cart,
         addToCart,
         removeFromCart,

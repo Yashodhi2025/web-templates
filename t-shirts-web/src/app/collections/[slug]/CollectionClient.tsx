@@ -1,9 +1,10 @@
 'use client';
 import { useSiteData } from "@deneb-ui/ui";
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { Filter, X, ChevronDown, Check, SlidersHorizontal } from 'lucide-react';
 import { AnnouncementBar } from '@/components/layout/AnnouncementBar';
 import { Header } from '@/components/layout/Header';
@@ -17,26 +18,19 @@ interface CollectionClientProps {
 }
 
 export function CollectionClient({ params }: CollectionClientProps) {
-  const siteData = useSiteData();
-  const [selectedFits, setSelectedFits] = useState<string[]>([]);
-  const [selectedColors, setSelectedColors] = useState<string[]>([]);
-  const [selectedActivities, setSelectedActivities] = useState<string[]>([]);
-  const [sortBy, setSortBy] = useState<string>('featured');
-  const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
+  const searchParams = useSearchParams();
+  // Query-only navigation reuses this route. Reset filters atomically with the URL.
+  return <CollectionContent key={`${params.slug}?${searchParams.toString()}`} query={searchParams.toString()} />;
+}
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const sp = new URLSearchParams(window.location.search);
-      const initialFit = sp.get('fit') || '';
-      const initialColor = sp.get('color') || '';
-      const initialSort = sp.get('sort') || 'featured';
-      const initialActivity = sp.get('activity') || '';
-      if (initialFit) setSelectedFits([initialFit]);
-      if (initialColor) setSelectedColors([initialColor]);
-      if (initialActivity) setSelectedActivities([initialActivity]);
-      if (initialSort) setSortBy(initialSort);
-    }
-  }, []);
+function CollectionContent({ query }: { query: string }) {
+  const siteData = useSiteData();
+  const initial = new URLSearchParams(query);
+  const [selectedFits, setSelectedFits] = useState<string[]>(() => initial.getAll('fit').filter(Boolean));
+  const [selectedColors, setSelectedColors] = useState<string[]>(() => initial.getAll('color').filter(Boolean));
+  const [selectedActivities, setSelectedActivities] = useState<string[]>(() => initial.getAll('activity').filter(Boolean));
+  const [sortBy, setSortBy] = useState<string>(() => initial.get('sort') || 'featured');
+  const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
 
   // Filter products
   const filteredProducts = useMemo(() => {
@@ -357,7 +351,7 @@ export function CollectionClient({ params }: CollectionClientProps) {
                   data-preview-style-type="button">{siteData?.content?.home?.resetAllFiltersLabel ?? "RESET ALL FILTERS"}</button>
               </div>
             ) : (
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-x-4 sm:gap-x-6 gap-y-10">
+              <div className="collection-enter grid grid-cols-2 md:grid-cols-3 gap-x-4 sm:gap-x-6 gap-y-10">
                 {filteredProducts.map((product: any) => (
                   <ProductCard key={product.id} product={product} />
                 ))}

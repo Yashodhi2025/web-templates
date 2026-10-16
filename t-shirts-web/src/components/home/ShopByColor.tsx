@@ -58,7 +58,7 @@ export function ShopByColor() {
                     style={{ backgroundColor: swatch.hex }}
                   />
                   <span
-                    data-preview-static="color-name"
+                    data-preview-style-type="text"
                     className={`text-xs font-mono uppercase tracking-wider ${
                       isSelected
                         ? 'font-bold text-black dark:text-white'

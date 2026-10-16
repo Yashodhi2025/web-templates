@@ -16,7 +16,8 @@
     "engine": "NEXT_STATIC_EXPORT",
     "structure": {
       "pages": [
-        "home"
+        "home",
+        "products_detail"
       ],
       "theme": {
         "primaryColor": "#0284c7",
@@ -55,7 +56,8 @@
       "headerCtaLabel": "Contact Us",
       "copyright": "© 2026 t-shirts-web. All rights reserved.",
       "navLabels": {
-        "home": "Home"
+        "home": "Home",
+        "products_detail": "Products Detail"
       },
       "business": {
         "phone": "",
@@ -63,13 +65,14 @@
         "email": ""
       },
       "header": {
+        "logoText": "Home",
         "collectionsLabel": "Collections",
-        "tShirtsLabel": "T-Shirts",
-        "tShirtsUrl": "/collections/t-shirts",
-        "tShirtsLabel2": "T-Shirts",
-        "vantaathleticsLabel": "VANTAATHLETICS"
+        "tShirtsLabel": "T-Shirts"
       },
       "footer": {
+        "instagramUrl": "https://instagram.com",
+        "tiktokUrl": "https://tiktok.com",
+        "youtubeUrl": "https://youtube.com",
         "vantaAthleticClubLabel": "VANTA ATHLETIC CLUB",
         "description": "Receive private drop allocations, seasonal lookbooks, and priority access to limited 280 GSM heavyweight runs.",
         "welcomeClubCheckInboxConfirmation": "WELCOME TO THE CLUB. CHECK YOUR INBOX FOR CONFIRMATION.",
@@ -122,43 +125,195 @@
         "collectionsSubheading": "COLLECTIONS",
         "supportSubheading": "SUPPORT",
         "brandSubheading": "BRAND",
-        "connectSubheading": "CONNECT",
-        "instagramVantaAthletics": "Instagram (@vanta.athletics)",
-        "tiktok": "TikTok",
-        "youtube": "YouTube"
+        "connectSubheading": "CONNECT"
       },
+      "NAV_LINKS": [
+        {
+          "href": "/collections/t-shirts?sort=newest"
+        },
+        {
+          "href": "/collections/t-shirts"
+        },
+        {
+          "href": "/collections/t-shirts"
+        },
+        {
+          "href": "/collections/t-shirts"
+        },
+        {
+          "href": "/collections/t-shirts?fit=performance"
+        },
+        {
+          "href": "/collections/t-shirts?fit=classic"
+        }
+      ],
       "navigation": {
         "editorialSeriesLabel": "EDITORIAL SERIES"
       }
     },
     "home": {
+      "sortLabel": "SORT BY:",
+      "SWATCH_COLORS": [
+        {
+          "name": "Black"
+        },
+        {
+          "name": "White"
+        },
+        {
+          "name": "Bone"
+        },
+        {
+          "name": "Stone"
+        },
+        {
+          "name": "Navy"
+        },
+        {
+          "name": "Olive"
+        },
+        {
+          "name": "Burgundy"
+        }
+      ],
+      "error404Label": "Error 404",
+      "title": "Page Not Found",
+      "description": "The piece or collection you are looking for has been moved, archived, or is no longer in circulation.",
+      "returnHomeLabel": "← Return to Home",
+      "SPEC_PILLS": [
+        {
+          "label": "280 GSM DENSITY"
+        },
+        {
+          "label": "100% COMBED COTTON"
+        },
+        {
+          "label": "ZERO RESIDUAL SHRINKAGE"
+        },
+        {
+          "label": "REINFORCED BOUND COLLAR"
+        },
+        {
+          "label": "ORGANIC CARBON PIGMENTS"
+        }
+      ],
+      "SWATCH_COLORS2": [
+        {
+          "name": "Black"
+        },
+        {
+          "name": "White"
+        },
+        {
+          "name": "Bone"
+        },
+        {
+          "name": "Stone"
+        },
+        {
+          "name": "Navy"
+        },
+        {
+          "name": "Olive"
+        },
+        {
+          "name": "Burgundy"
+        }
+      ],
+      "FITS": [
+        {
+          "image": "/images/categories/fit-classic.jpg",
+          "title": "CLASSIC FIT",
+          "tagline": "Clean everyday silhouette.",
+          "href": "/collections/t-shirts?fit=classic"
+        },
+        {
+          "image": "/images/categories/fit-oversized.jpg",
+          "title": "OVERSIZED",
+          "tagline": "Relaxed structure. Heavyweight feel.",
+          "href": "/collections/t-shirts?fit=oversized"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=1200&auto=format&fit=crop",
+          "title": "PERFORMANCE",
+          "tagline": "Engineered for movement.",
+          "href": "/collections/t-shirts?fit=performance"
+        }
+      ],
+      "ACTIVITIES": [
+        {
+          "href": "/collections/t-shirts?activity=running",
+          "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?q=80&w=1200&auto=format&fit=crop",
+          "title": "RUNNING",
+          "tagline": "Ultralight hydro-mesh with zero drag."
+        },
+        {
+          "href": "/collections/t-shirts?activity=training",
+          "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop",
+          "title": "TRAINING",
+          "tagline": "Gusseted mobility for heavy compound lifts."
+        },
+        {
+          "href": "/collections/t-shirts?activity=court",
+          "image": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1200&auto=format&fit=crop",
+          "title": "COURT",
+          "tagline": "Structured pique and breathable collar."
+        },
+        {
+          "href": "/collections/t-shirts?activity=lifestyle",
+          "image": "/images/hero/hero-campaign.jpg",
+          "title": "LIFESTYLE",
+          "tagline": "Heavyweight boxy draping for the street."
+        },
+        {
+          "href": "/collections/t-shirts?activity=rest-day",
+          "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=1200&auto=format&fit=crop",
+          "title": "REST DAY",
+          "tagline": "French terry and combed jersey comfort."
+        }
+      ],
+      "galleryList": [
+        {
+          "label": "Model Front"
+        },
+        {
+          "label": "Model Rear"
+        },
+        {
+          "label": "Product Front"
+        },
+        {
+          "label": "Product Rear"
+        },
+        {
+          "label": "Fabric Macro / 280 GSM"
+        },
+        {
+          "label": "Lifestyle Editorial"
+        }
+      ],
+      "sampleReviews": [
+        {
+          "title": "Unbelievable drape and weight. The collar stays crisp.",
+          "comment": "Finally a heavyweight tee that doesn’t feel boxy like cardboard. The 280 GSM combed cotton has a luxurious, cool-to-the-touch hand feel and the 1.25” bound rib collar does not bacon or stretch after washing. Perfect everyday luxury piece.",
+          "author": "Marcus K."
+        },
+        {
+          "title": "Best athletic silhouette I have ever worn.",
+          "comment": "I am 6’2” 88kg with broad shoulders. Usually tees either cling uncomfortably to my lats or bag out around the waist. This cut nails the proportions with dropped shoulders and a clean vertical fall. Incredible work.",
+          "author": "Julian D."
+        },
+        {
+          "title": "Subtle quiet luxury branding at its finest.",
+          "comment": "The deep carbon black pigment is striking in person. No obnoxious logos everywhere, just impeccable stitching and heavyweight durability. Already ordered two more in bone and graphite.",
+          "author": "Devinda P."
+        }
+      ],
+      "checkBackSoon": ". Check back soon.",
       "foundationLabel": "FOUNDATION",
-      "description": "The visual hero of Vanta Athletics. Custom-milled 240–280 GSM cotton and technical knits engineered for movement and quiet luxury durability.",
       "showingPieces": "SHOWING PIECES",
       "subtitle": "No pieces matched your selected filters.",
       "resetAllFiltersLabel": "RESET ALL FILTERS",
-      "error404Label": "Error 404",
-      "title": "Page Not Found",
-      "description2": "The piece or collection you are looking for has been moved, archived, or is no longer in circulation.",
-      "colorLabel": "Color:",
-      "sizeLabel": "Size:",
-      "sizeGuideLabel": "Size Guide",
-      "inStockDispatched24Hours": "In Stock — Dispatched in 24 hours",
-      "addBagLabel": "Add to Bag",
-      "instantCheckoutLabel": "Instant Checkout",
-      "freeIslandwideDeliveryLabel": "Free Islandwide Delivery",
-      "description3": "Complimentary courier dispatch on all orders over LKR 15,000. Delivered in 2–4 business days.",
-      "fabricEngineeringSpecificationsLabel": "Fabric & Engineering Specifications",
-      "silhouetteProportionsLabel": "Silhouette & Proportions",
-      "campaignModel62188": "Campaign model is 6'2\" (188 cm), 84 kg wearing size L.",
-      "modelSizingLabel": "Model Sizing:",
-      "careLongevityLabel": "Care & Longevity",
-      "deliveryHassleFreeReturnsLabel": "Delivery & Hassle-Free Returns",
-      "description4": "Colombo and suburbs: Next business day delivery. Outstation: 2–3 business days via prompt tracking courier.",
-      "description5": "14-day unworn exchange or return policy in original packaging with intact security tags.",
-      "curatedPairingsLabel": "Curated Pairings",
-      "viewAllTShirtsUrl": "/collections/t-shirts",
-      "viewAllTShirtsLabel": "View All T-Shirts →",
       "yourBagLabel": "YOUR BAG",
       "addFreeDeliveryLabel": "Add for free delivery",
       "freeIslandwideShippingUnlockedLabel": "FREE ISLANDWIDE SHIPPING UNLOCKED",
@@ -182,26 +337,21 @@
       },
       "provenStandardsLabel": "PROVEN STANDARDS",
       "sellersLabel": "SELLERS",
-      "viewAllBestSellersLabel": "VIEW ALL BEST SELLERS",
       "monochromeStandardLabel": "MONOCHROME STANDARD",
       "seriesLabel": "SERIES",
       "description8": "Pure carbon pigment dyes. Tonal side lighting and sculptural drape across our highest density weights.",
-      "shopBlackSeriesLabel": "SHOP BLACK SERIES",
       "performance01Label": "PERFORMANCE / 01",
       "performanceTeeLabel": "PERFORMANCE TEE",
       "description9": "Lightweight. Breathable. Built for max movement velocity without looking like synthetic gymwear. Transition effortlessly from track sprints to the city.",
-      "discoverPerformanceLabel": "DISCOVER PERFORMANCE",
       "timelessArchitectureLabel": "TIMELESS ARCHITECTURE",
       "classicsLabel": "CLASSICS",
       "description10": "Pieces that never need a season. Engineered in 240 GSM Peruvian Pima jersey and structured pique for effortless everyday distinction.",
-      "exploreClassicsLabel": "EXPLORE THE CLASSICS",
       "heritageStandardLabel": "HERITAGE STANDARD",
       "description11": "Tailored collar architecture with zero curl. Designed for longevity beyond trends.",
       "hero": {
         "newSeason2026Drop01": "NEW SEASON / 2026 DROP 01",
         "madeStayLabel": "MADE TO STAY.",
         "description": "High-grade everyday athletic essentials engineered from 280 GSM combed cotton. Proportioned for movement, comfort and effortless quiet luxury.",
-        "shopNewArrivalsLabel": "SHOP NEW ARRIVALS",
         "exploreTShirtsHeroUrl": "/collections/t-shirts",
         "exploreTShirtsHeroLabel": "EXPLORE T-SHIRTS (HERO)",
         "image": "/images/hero/hero-campaign.jpg",
@@ -209,11 +359,9 @@
       },
       "latestDropLabel": "LATEST DROP",
       "latestLabel": "LATEST",
-      "viewAllNewArrivalsLabel": "VIEW ALL NEW ARRIVALS",
       "editorialCampaignLabel": "EDITORIAL CAMPAIGN",
       "item026Label": "026",
       "description12": "Shot on location across brutalist pavilions and training grounds. Minimal styling designed for longevity.",
-      "viewCompleteLookbookLabel": "VIEW COMPLETE LOOKBOOK",
       "form": {
         "imageAlt": "Vanta Lookbook Editorial 01",
         "imageAlt2": "Vanta Lookbook Editorial 02",
@@ -252,7 +400,6 @@
       "fitLabel": "FIT",
       "description13": "Every silhouette is engineered around human kinetics. Choose the volume that reflects your personal standard.",
       "categoryHeroLabel": "CATEGORY HERO",
-      "exploreSilhouetteLabel": "Explore Silhouette",
       "activityMatrixLabel": "ACTIVITY MATRIX",
       "motionLabel": "MOTION",
       "description14": "Engineered disciplines. Every garment is purpose-built for its physiological demands.",
@@ -284,7 +431,6 @@
       "shoulderLabel": "Shoulder:",
       "measureShoulderSeamDownOuter": "Measure from shoulder seam down outer edge to sleeve hem opening.",
       "sleeveLabel": "Sleeve:",
-      "logoText": "Home",
       "title2": "T-SHIRTS",
       "filtersLabel": "FILTERS",
       "activeLabel": "ACTIVE:",
@@ -304,21 +450,6 @@
       "colorsSubheading": "COLORS",
       "resetLabel": "RESET",
       "applyLabel": "APPLY ()",
-      "logoText2": "Return to Home",
-      "logoText3": "Home",
-      "fitLabel4": "fit",
-      "gsmLabel": "GSM",
-      "lkrLabel": "LKR",
-      "lkrLabel2": "LKR",
-      "pleaseSelectSizeLabel": "* Please select a size",
-      "lowStockOnly3Items": "Low Stock — Only 3 items left in size",
-      "lkrLabel3": "• LKR",
-      "material": "Material:",
-      "subtitle4": "GSM (Ultra-durable, premium weight)",
-      "fabricWeight": "Fabric Weight:",
-      "completeLookSubheading": "Complete the Look",
-      "lkrLabel4": "LKR",
-      "sizeLabel2": "• Size",
       "lkrLabel5": "LKR",
       "yourBagEmptySubheading": "Your bag is empty",
       "sizeLabel3": "SIZE",
@@ -353,7 +484,6 @@
       "heading6": "STYLED /",
       "heading7": "SHOP BY",
       "noPiecesCurrentlyStockCheck": "No pieces currently in stock for . Check back soon.",
-      "viewAllPiecesLabel": "VIEW ALL PIECES",
       "heading8": "SHOP YOUR",
       "heading9": "MADE FOR",
       "navigation": {
@@ -523,7 +653,18 @@
     "home.sleeveLabel": {},
     "home.error404Label": {},
     "home.title": {},
-    "home.description14": {}
+    "home.description14": {},
+    "common.header.logoText": {},
+    "home.sortLabel": {},
+    "home.SWATCH_COLORS.grid": {},
+    "home.returnHomeLabel": {},
+    "home.SPEC_PILLS.grid": {},
+    "home.SWATCH_COLORS2.grid": {},
+    "home.FITS.grid": {},
+    "home.ACTIVITIES.grid": {},
+    "common.NAV_LINKS.grid": {},
+    "home.galleryList.grid": {},
+    "home.sampleReviews.grid": {}
   },
   "theme": {
     "primaryColor": "#0284c7",

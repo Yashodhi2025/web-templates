@@ -128,3 +128,38 @@
     @apply font-sans;
   }
 }
+/* Keep collection changes brief and avoid layout movement during navigation. */
+@keyframes collection-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.collection-enter {
+  animation: collection-enter 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Templates replay this fade when the destination page mounts. Opacity only
+   keeps sticky headers and fixed drawers in their normal positions. */
+.page-enter {
+  animation: collection-enter 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.category-link[aria-current="page"] {
+  color: white;
+  font-weight: 700;
+}
+
+.category-link[aria-current="page"]::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: #D72626;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .collection-enter,
+  .page-enter { animation: none; }
+}

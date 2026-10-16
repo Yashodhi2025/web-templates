@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Search, Heart, ShoppingBag, Menu } from 'lucide-react';
 import { useStore } from '@/context/StoreContext';
 import { NAV_LINKS } from '@/data/navigation';
+import { NavigationLink } from './NavigationLink';
 import { MegaMenu } from './MegaMenu';
 import { MobileMenu } from './MobileMenu';
 
@@ -32,6 +33,7 @@ export function Header() {
   return (
     <>
       <header
+        onMouseLeave={() => setActiveMega(null)}
         className={`sticky top-0 z-40 w-full transition-all duration-300 ${
           isScrolled
             ? 'bg-[#0B0B0B]/95 text-white backdrop-blur-md border-b border-white/10 shadow-lg'
@@ -69,7 +71,7 @@ export function Header() {
           </div>
 
           {/* Center: Desktop Navigation Links */}
-          <nav className="[display:none] lg:flex items-center gap-8">
+          <nav aria-label="Main navigation" className="hidden lg:flex items-center gap-8">
             {NAV_LINKS.map((link: any) => {
               const displayText = link.label === 'T-SHIRTS'
                 ? (siteData?.content?.common?.header?.tShirtsLabel ?? link.label)
@@ -83,20 +85,15 @@ export function Header() {
                   onMouseEnter={() => (link.hasMega ? setActiveMega(link.label) : setActiveMega(null))}
                   className="relative py-6"
                 >
-                  <Link
+                  <NavigationLink
+                    label={link.label}
                     href={link.href}
+                    onNavigate={() => setActiveMega(null)}
                     data-preview-static="nav-link"
-                    className={`text-xs font-mono tracking-widest uppercase transition-colors relative py-1 ${
-                      link.highlight
-                        ? 'font-bold text-white'
-                        : 'font-medium text-[#C9C6BF] hover:text-white'
-                    }`}
+                    className={`text-xs font-mono tracking-widest uppercase transition-colors relative py-1 font-medium text-[#C9C6BF] hover:text-white`}
                   >
                     {displayText}
-                    {link.highlight && (
-                      <span className="absolute -bottom-1 left-0 h-[2px] w-full bg-[#D72626]" />
-                    )}
-                  </Link>
+                  </NavigationLink>
                 </div>
               );
             })}
@@ -145,6 +142,30 @@ export function Header() {
             </button>
           </div>
         </div>
+
+        {/* Keep category links accessible when the desktop navigation cannot fit. */}
+        <nav
+          aria-label="Category navigation"
+          className="w-full overflow-x-auto border-t border-white/10 lg:hidden"
+        >
+          <div className="mx-auto flex w-max min-w-full items-center justify-evenly gap-6 px-4 sm:px-8">
+            {NAV_LINKS.map((link) => (
+              <NavigationLink
+                label={link.label}
+                key={link.label}
+                href={link.href}
+                onNavigate={() => setActiveMega(null)}
+                className={`relative shrink-0 whitespace-nowrap py-4 text-xs font-mono tracking-widest uppercase transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:outline-white font-medium text-[#C9C6BF] hover:text-white`}
+              >
+                {link.label === 'T-SHIRTS'
+                  ? (siteData?.content?.common?.header?.tShirtsLabel ?? link.label)
+                  : link.label === 'COLLECTIONS'
+                  ? (siteData?.content?.common?.header?.collectionsLabel ?? link.label)
+                  : link.label}
+              </NavigationLink>
+            ))}
+          </div>
+        </nav>
 
         {/* Mega Menu Dropdown */}
         <MegaMenu isOpen={Boolean(activeMega)} onClose={() => setActiveMega(null)} />

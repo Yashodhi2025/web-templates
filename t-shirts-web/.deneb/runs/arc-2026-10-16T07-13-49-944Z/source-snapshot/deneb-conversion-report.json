@@ -1,0 +1,3051 @@
+{
+  "runId": "arc-2026-09-25T07-42-18-886Z",
+  "timestamp": "2026-09-25T07:42:18.886Z",
+  "projectName": "t-shirts-web",
+  "outcome": "success",
+  "scorecard": {
+    "contractValidity": "100%",
+    "editabilityCoverage": "100%",
+    "visualBound": "288/288",
+    "designPreservation": "96.7%",
+    "runtimeEditability": "100%"
+  },
+  "runtimeVerification": {
+    "mode": "in-process-contract-simulation",
+    "passed": true,
+    "totalTested": 309,
+    "verifiedCount": 309,
+    "failedCount": 0,
+    "runtimeEditabilityScore": 100,
+    "verifiedFields": [
+      "common.websiteTitle",
+      "common.shortDescription",
+      "common.logoUrl",
+      "common.headerCtaLabel",
+      "common.copyright",
+      "common.navLabels.home",
+      "common.business.phone",
+      "common.business.whatsapp",
+      "common.business.email",
+      "common.header.collectionsLabel",
+      "common.header.tShirtsLabel",
+      "common.header.tShirtsUrl",
+      "common.header.tShirtsLabel2",
+      "common.header.vantaathleticsLabel",
+      "common.footer.vantaAthleticClubLabel",
+      "common.footer.description",
+      "common.footer.welcomeClubCheckInboxConfirmation",
+      "common.footer.joinClubLabel",
+      "common.footer.subtitle",
+      "common.footer.newDropsUrl",
+      "common.footer.newDropsLabel",
+      "common.footer.tShirtsHeroUrl",
+      "common.footer.tShirtsHeroLabel",
+      "common.footer.oversizedFit280GsmUrl",
+      "common.footer.oversizedFit280GsmLabel",
+      "common.footer.performanceSeriesUrl",
+      "common.footer.performanceSeriesLabel",
+      "common.footer.theClassicsUrl",
+      "common.footer.theClassicsLabel",
+      "common.footer.blackSeriesUrl",
+      "common.footer.blackSeriesLabel",
+      "common.footer.islandwideDeliveryUrl",
+      "common.footer.islandwideDeliveryLabel",
+      "common.footer.item14DayReturnsExchangesUrl",
+      "common.footer.item14DayReturnsExchangesLabel",
+      "common.footer.sizeFitGuideUrl",
+      "common.footer.sizeFitGuideLabel",
+      "common.footer.trackOrderUrl",
+      "common.footer.trackOrderLabel",
+      "common.footer.clientConciergeUrl",
+      "common.footer.clientConciergeLabel",
+      "common.footer.ourPhilosophyUrl",
+      "common.footer.ourPhilosophyLabel",
+      "common.footer.materials280GsmCraftUrl",
+      "common.footer.materials280GsmCraftLabel",
+      "common.footer.flagshipStoreColomboUrl",
+      "common.footer.flagshipStoreColomboLabel",
+      "common.footer.sustainabilityStandardsUrl",
+      "common.footer.sustainabilityStandardsLabel",
+      "common.footer.careersStudioUrl",
+      "common.footer.careersStudioLabel",
+      "common.footer.vantaClubRadioUrl",
+      "common.footer.vantaClubRadioLabel",
+      "common.footer.title",
+      "common.footer.vantaAthleticsIncBuiltMovement",
+      "common.footer.privacyPolicyUrl",
+      "common.footer.privacyPolicyLabel",
+      "common.footer.termsServiceUrl",
+      "common.footer.termsServiceLabel",
+      "common.footer.cookiePreferencesUrl",
+      "common.footer.cookiePreferencesLabel",
+      "common.footer.joinClubPrivateReleasesSubheading",
+      "common.footer.enterEmailPlaceholder",
+      "common.footer.collectionsSubheading",
+      "common.footer.supportSubheading",
+      "common.footer.brandSubheading",
+      "common.footer.connectSubheading",
+      "common.footer.instagramVantaAthletics",
+      "common.footer.tiktok",
+      "common.footer.youtube",
+      "common.navigation.editorialSeriesLabel",
+      "home.foundationLabel",
+      "home.description",
+      "home.showingPieces",
+      "home.subtitle",
+      "home.resetAllFiltersLabel",
+      "home.error404Label",
+      "home.title",
+      "home.description2",
+      "home.colorLabel",
+      "home.sizeLabel",
+      "home.sizeGuideLabel",
+      "home.inStockDispatched24Hours",
+      "home.addBagLabel",
+      "home.instantCheckoutLabel",
+      "home.freeIslandwideDeliveryLabel",
+      "home.description3",
+      "home.fabricEngineeringSpecificationsLabel",
+      "home.silhouetteProportionsLabel",
+      "home.campaignModel62188",
+      "home.modelSizingLabel",
+      "home.careLongevityLabel",
+      "home.deliveryHassleFreeReturnsLabel",
+      "home.description4",
+      "home.description5",
+      "home.curatedPairingsLabel",
+      "home.viewAllTShirtsUrl",
+      "home.viewAllTShirtsLabel",
+      "home.yourBagLabel",
+      "home.addFreeDeliveryLabel",
+      "home.freeIslandwideShippingUnlockedLabel",
+      "home.description6",
+      "home.startShoppingLabel",
+      "home.estimatedDeliveryLabel",
+      "home.totalLabel",
+      "home.proceedCheckoutLabel",
+      "home.continueShoppingLabel",
+      "home.quickAddLabel",
+      "home.selectSize",
+      "home.vantaAthleticsSearchLabel",
+      "home.popularLabel",
+      "home.subtitle2",
+      "home.description7",
+      "home.savedPiecesLabel",
+      "home.subtitle3",
+      "home.shop.exploreCollectionUrl",
+      "home.shop.exploreCollectionLabel",
+      "home.provenStandardsLabel",
+      "home.sellersLabel",
+      "home.viewAllBestSellersLabel",
+      "home.monochromeStandardLabel",
+      "home.seriesLabel",
+      "home.description8",
+      "home.shopBlackSeriesLabel",
+      "home.performance01Label",
+      "home.performanceTeeLabel",
+      "home.description9",
+      "home.discoverPerformanceLabel",
+      "home.timelessArchitectureLabel",
+      "home.classicsLabel",
+      "home.description10",
+      "home.exploreClassicsLabel",
+      "home.heritageStandardLabel",
+      "home.description11",
+      "home.hero.newSeason2026Drop01",
+      "home.hero.madeStayLabel",
+      "home.hero.description",
+      "home.hero.shopNewArrivalsLabel",
+      "home.hero.exploreTShirtsHeroUrl",
+      "home.hero.exploreTShirtsHeroLabel",
+      "home.hero.image",
+      "home.hero.title",
+      "home.latestDropLabel",
+      "home.latestLabel",
+      "home.viewAllNewArrivalsLabel",
+      "home.editorialCampaignLabel",
+      "home.item026Label",
+      "home.description12",
+      "home.viewCompleteLookbookLabel",
+      "home.form.imageAlt",
+      "home.form.imageAlt2",
+      "home.form.imageAlt3",
+      "home.form.nameLabel",
+      "home.form.johnDoePlaceholder",
+      "home.form.emailLabel",
+      "home.form.johnExampleComPlaceholder",
+      "home.form.messageLabel",
+      "home.form.yourMessagePlaceholder",
+      "home.form.image",
+      "home.form.image2",
+      "home.form.image3",
+      "home.look01Oversized280Gsm",
+      "home.look02BoneCreamRelaxed",
+      "home.look03ClassicTailoredPima",
+      "home.about.microscopicIntegrityLabel",
+      "home.about.description",
+      "home.about.materialHonestyLabel",
+      "home.about.betterLabel",
+      "home.about.description2",
+      "home.about.description3",
+      "home.about.description4",
+      "home.about.description5",
+      "home.about.image",
+      "home.about.heading",
+      "home.about.item01HeavyweightFabric280Gsm",
+      "home.about.item02EngineeredAnatomicalFitSubheading",
+      "home.about.item03BuiltEnduranceSubheading",
+      "home.curatedPaletteLabel",
+      "home.colorLabel2",
+      "home.tailoredAnatomyLabel",
+      "home.fitLabel",
+      "home.description13",
+      "home.categoryHeroLabel",
+      "home.exploreSilhouetteLabel",
+      "home.activityMatrixLabel",
+      "home.motionLabel",
+      "home.description14",
+      "home.testimonials.verifiedFeedbackLabel",
+      "home.testimonials.heading",
+      "home.testimonials.communityFitAssessmentLabel",
+      "home.testimonials.item94RateTrueSizeLabel",
+      "home.testimonials.runsSmallLabel",
+      "home.testimonials.trueSizeLabel",
+      "home.testimonials.runsLargeLabel",
+      "home.testimonials.basedVerifiedPurchasesLabel",
+      "home.testimonials.verifiedBuyerLabel",
+      "home.testimonials.sizeLabel",
+      "home.testimonials.fitLabel",
+      "home.testimonials.helpfulLabel",
+      "home.fitSizingSpecificationsLabel",
+      "home.campaignModel621882",
+      "home.measurementsLabel",
+      "home.cmLabel",
+      "home.inchesLabel",
+      "home.howMeasureLabel",
+      "home.measureAroundFullestPartChest",
+      "home.chestLabel",
+      "home.measureHighestPointShoulderCollar",
+      "home.lengthLabel",
+      "home.measureStraightAcrossBackShoulder",
+      "home.shoulderLabel",
+      "home.measureShoulderSeamDownOuter",
+      "home.sleeveLabel",
+      "home.logoText",
+      "home.title2",
+      "home.filtersLabel",
+      "home.activeLabel",
+      "home.fitLabel2",
+      "home.clearAllLabel",
+      "home.featured",
+      "home.newestDrops",
+      "home.bestSellers",
+      "home.priceLowHigh",
+      "home.priceHighLow",
+      "home.silhouetteFitSubheading",
+      "home.colorPaletteSubheading",
+      "home.disciplineActivitySubheading",
+      "home.filtersLabel2",
+      "home.fitSubheading",
+      "home.fitLabel3",
+      "home.colorsSubheading",
+      "home.resetLabel",
+      "home.applyLabel",
+      "home.logoText2",
+      "home.logoText3",
+      "home.fitLabel4",
+      "home.gsmLabel",
+      "home.lkrLabel",
+      "home.lkrLabel2",
+      "home.pleaseSelectSizeLabel",
+      "home.lowStockOnly3Items",
+      "home.lkrLabel3",
+      "home.material",
+      "home.subtitle4",
+      "home.fabricWeight",
+      "home.completeLookSubheading",
+      "home.lkrLabel4",
+      "home.sizeLabel2",
+      "home.lkrLabel5",
+      "home.yourBagEmptySubheading",
+      "home.sizeLabel3",
+      "home.lkrLabel6",
+      "home.subtotalLabel",
+      "home.lkrLabel7",
+      "home.lkrLabel8",
+      "home.newLabel",
+      "home.popularLabel2",
+      "home.fitLabel5",
+      "home.gsmLabel2",
+      "home.lkrLabel9",
+      "home.lkrLabel10",
+      "home.whatLookingPlaceholder",
+      "home.forLabel",
+      "home.viewAllCatalog",
+      "home.fitGsmLabel",
+      "home.lkrLabel11",
+      "home.yourWishlistEmptySubheading",
+      "home.fitLabel6",
+      "home.gsmLabel3",
+      "home.lkr",
+      "home.moveBagSizeMLabel",
+      "home.heading",
+      "home.heading2",
+      "home.image",
+      "home.heading3",
+      "home.heading4",
+      "home.image2",
+      "home.refinedTennisTrackHeritageSubheading",
+      "home.heading5",
+      "home.heading6",
+      "home.heading7",
+      "home.noPiecesCurrentlyStockCheck",
+      "home.viewAllPiecesLabel",
+      "home.heading8",
+      "home.heading9",
+      "home.navigation.featuredSubheading",
+      "home.navigation.shopApparelSubheading",
+      "home.navigation.shopActivitySubheading",
+      "home.navigation.logoText",
+      "home.navigation.newDropsLabel",
+      "home.navigation.latestLabel",
+      "home.navigation.tShirtsHeroLabel",
+      "home.navigation.oversizedTees280Gsm",
+      "home.navigation.classicFitTees",
+      "home.navigation.performanceTeesDryTech",
+      "home.navigation.blackSeriesLabel",
+      "home.navigation.sportRunningLabel",
+      "home.navigation.searchCatalogLabel",
+      "home.navigation.savedPiecesLabel",
+      "home.navigation.shoppingBagLabel",
+      "home.navigation.builtMovementDesignedEverywhere",
+      "home.gallery.ofLabel",
+      "home.garmentMeasurementsGuideSubheading",
+      "home.silhouetteProfileFitLabel",
+      "home.size",
+      "home.chestWidth",
+      "home.bodyLength",
+      "home.shoulder",
+      "home.sleeveLength"
+    ],
+    "failedFields": [],
+    "collectionResults": []
+  },
+  "diagnosticsBySeverity": {
+    "info": 183,
+    "warning": 16,
+    "error": 137,
+    "blocking": 0
+  },
+  "unresolvedCount": 336,
+  "unresolved": [
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "111:16:111:93",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.98,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "118:14:120:19",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "127:22:127:109",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.16999999999999998,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "138:10:149:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "142:12:142:53",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "143:12:143:32",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "145:14:147:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "152:10:194:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "155:16:155:96",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "157:18:164:27",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "162:20:162:40",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "163:20:163:45",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "167:18:174:27",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "172:20:172:36",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "173:20:173:45",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "177:18:184:27",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "182:20:182:36",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "183:20:183:45",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "186:16:191:25",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "198:12:198:105",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "216:10:301:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "218:12:242:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "219:14:221:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "222:14:241:20",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "228:18:239:26",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "232:20:237:22",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "238:20:238:44",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "245:12:271:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "246:14:248:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "249:14:270:20",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "253:20:267:29",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "262:22:265:24",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "266:22:266:43",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "274:12:300:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "275:14:277:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "278:14:299:20",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "286:18:297:26",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "290:20:295:22",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "296:20:296:44",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "330:8:397:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "331:10:334:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "335:10:396:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "336:12:341:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "337:14:337:99",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "338:14:340:23",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "339:16:339:41",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "344:12:380:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "345:14:360:20",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "346:16:346:88",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "347:16:359:22",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "349:20:357:28",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "350:22:355:24",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "356:22:356:44",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "362:14:379:20",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "363:16:363:91",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "364:16:378:22",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "366:20:376:29",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "382:12:395:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "383:14:388:23",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "389:14:394:23",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/not-found.tsx",
+      "loc": "16:6:22:13",
+      "type": "split-action-contract",
+      "reason": "interactive-link-requires-split-contract",
+      "confidence": 0.99,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/not-found.tsx",
+      "loc": "20:8:20:41",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "116:12:118:19",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.98,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "124:12:124:99",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "142:20:144:27",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "145:20:147:27",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "156:20:156:50",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "157:20:159:27",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "165:18:167:23",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "168:18:170:22",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "176:20:178:27",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "179:20:181:27",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "190:24:190:92",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "193:20:195:27",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "204:22:204:85",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "235:24:237:31",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "239:22:241:29",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "247:22:247:55",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "260:24:279:33",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "290:26:292:33",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "314:24:314:57",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "316:22:318:29",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "324:24:324:56",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "334:22:336:29",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "347:22:349:24",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "371:20:371:64",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "383:20:393:29",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "389:24:389:72",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "391:24:391:74",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "396:24:398:28",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "399:24:401:28",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "404:28:404:53",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "413:20:423:29",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "419:24:419:72",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "421:24:421:74",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "426:24:426:52",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "436:20:446:29",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "442:24:442:72",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "444:24:444:74",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "451:28:451:53",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "460:20:470:29",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "466:24:466:72",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "468:24:468:74",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "501:16:503:21",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "524:8:540:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "525:10:539:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "526:12:532:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "527:14:527:97",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "528:14:531:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "529:16:529:65",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "530:16:530:112",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/products/[slug]/ProductDetailClient.tsx",
+      "loc": "533:12:538:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "40:12:42:19",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "49:12:49:37",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "58:20:58:114",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "62:16:62:55",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "65:12:65:74",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "80:16:80:51",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "82:14:82:103",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "118:22:124:31",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "123:24:123:58",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "128:22:128:55",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "129:22:129:36",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "130:22:130:96",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "137:22:143:31",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "142:24:142:53",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "144:22:144:108",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "145:22:151:31",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "150:24:150:52",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "154:20:156:27",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "169:16:169:37",
+      "type": "text",
+      "reason": "literal-span-text",
+      "confidence": 0.73,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "170:16:170:101",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "174:16:176:23",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "182:14:184:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "194:14:194:48",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "37:10:39:17",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "40:10:42:17",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "55:10:59:12",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "109:18:124:27",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "154:10:154:40",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "156:10:156:40",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "169:10:171:17",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "172:10:174:17",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "53:10:53:35",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "61:12:61:57",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "62:12:69:14",
+      "type": "placeholder",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.84,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "75:16:75:41",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "85:12:91:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "101:14:103:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "110:38:110:72",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "142:20:144:27",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "145:20:147:25",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "148:20:150:27",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "32:12:34:19",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "41:12:41:37",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "50:16:50:45",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "52:14:52:108",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "86:22:92:31",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "91:24:91:58",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "96:22:96:66",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "96:69:96:99",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "104:18:113:27",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "111:20:111:59",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "112:20:112:53",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "23:8:23:74",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.78,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "24:8:28:10",
+      "type": "placeholder",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.84,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "29:24:29:91",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "33:8:33:76",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.78,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "34:8:39:10",
+      "type": "placeholder",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.84,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "40:25:40:93",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "44:8:44:80",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.78,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "45:8:49:10",
+      "type": "placeholder",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.84,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "50:27:50:97",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "53:6:59:15",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BestSellers.tsx",
+      "loc": "20:12:22:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BestSellers.tsx",
+      "loc": "30:12:30:93",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BlackSeries.tsx",
+      "loc": "20:12:22:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BlackSeries.tsx",
+      "loc": "33:12:33:93",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/CampaignSection.tsx",
+      "loc": "13:8:19:10",
+      "type": "image",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.88,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/CampaignSection.tsx",
+      "loc": "30:8:33:13",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/CampaignSection.tsx",
+      "loc": "46:10:46:91",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "22:12:24:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "36:14:36:95",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.12000000000000001,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "45:12:51:14",
+      "type": "image",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.88,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "57:14:59:19",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "72:8:79:10",
+      "type": "image",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.88,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "98:10:104:15",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "121:14:121:95",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LatestDrop.tsx",
+      "loc": "21:12:23:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LatestDrop.tsx",
+      "loc": "31:12:31:93",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "17:12:19:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "30:12:30:93",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.12000000000000001,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "38:12:44:14",
+      "type": "image",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.88,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "53:14:59:16",
+      "type": "image",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.88,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "66:14:72:16",
+      "type": "image",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.88,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Marquee.tsx",
+      "loc": "20:12:22:19",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "22:12:28:14",
+      "type": "image",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.88,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "45:12:47:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "55:16:57:21",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "64:16:66:21",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "73:16:75:21",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "87:18:93:24",
+      "type": "collection",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.86,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "91:20:91:63",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "92:20:92:45",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "25:12:27:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "35:16:57:25",
+      "type": "collection",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.86,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "48:18:56:25",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "81:12:81:68",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "82:12:82:50",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "41:10:43:15",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "52:12:85:19",
+      "type": "collection",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.86,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "73:16:75:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "76:16:78:20",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "82:18:82:103",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "55:12:57:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.96,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "68:12:96:19",
+      "type": "collection",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.86,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "84:18:86:23",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.16999999999999998,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "87:18:89:22",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.16999999999999998,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "93:18:93:52",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.12000000000000001,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/AnnouncementBar.tsx",
+      "loc": "20:8:22:12",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "28:12:30:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "39:16:39:67",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "44:16:51:18",
+      "type": "placeholder",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.84,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "57:18:57:52",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "71:12:73:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "110:12:112:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "144:12:146:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "178:12:180:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "183:16:185:20",
+      "type": "split-action-contract",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.94,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "188:16:190:20",
+      "type": "split-action-contract",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.94,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "193:16:195:20",
+      "type": "split-action-contract",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.94,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "216:12:216:53",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "42:12:48:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "47:14:47:42",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "61:10:83:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "63:14:81:20",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "68:16:80:23",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "78:20:78:94",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "93:14:93:58",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "97:12:108:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "102:14:102:57",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "104:16:106:23",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "111:12:122:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "116:14:116:63",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "118:16:120:23",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "26:12:28:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "37:20:37:45",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "39:22:41:29",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "51:12:53:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "62:20:62:45",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "64:22:66:29",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "76:12:78:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "113:16:115:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "116:16:118:20",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "120:18:120:56",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "121:18:121:52",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "19:4:155:10",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "21:6:32:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "22:8:24:15",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "25:8:31:17",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "30:10:30:35",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "35:6:149:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "36:8:98:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "37:10:97:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "38:12:45:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "43:14:43:36",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "44:14:44:113",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "47:12:54:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "52:14:52:42",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "53:14:53:63",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "56:12:78:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "57:14:63:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "64:14:70:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "71:14:77:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "80:12:87:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "85:14:85:39",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "86:14:86:63",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "89:12:96:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "94:14:94:42",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "95:14:95:63",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "101:8:148:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "102:10:111:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "109:12:109:42",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "110:12:110:39",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "113:10:129:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "120:12:123:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "121:14:121:43",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "122:14:122:39",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "125:14:127:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "131:10:147:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "138:12:141:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "139:14:139:49",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "140:14:140:39",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "143:14:145:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "152:6:154:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "68:6:93:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "70:10:91:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "75:12:82:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "84:12:86:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "88:12:90:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "89:14:89:47",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "96:6:164:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "98:8:140:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "102:10:109:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "111:10:113:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "115:10:117:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "120:10:129:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "128:12:128:47",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "130:10:139:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "138:12:138:48",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "143:8:163:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "145:12:161:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "154:14:160:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "174:12:176:19",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "182:14:182:39",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "192:12:192:47",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "199:12:199:48",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "105:12:105:105",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "109:18:109:90",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "112:14:114:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "158:14:210:20",
+      "type": "collection",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.86,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "167:24:167:96",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "170:20:172:27",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "171:22:171:72",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "176:18:178:23",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "181:18:183:22",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "187:20:189:27",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "190:20:192:27",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "198:18:198:46",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "206:20:206:52",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "207:20:207:50",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "61:12:63:17",
+      "type": "text",
+      "reason": "fingerprint-deprecated",
+      "confidence": 0.95,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "70:12:70:37",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "76:10:78:17",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "79:10:81:14",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "83:12:83:60",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    }
+  ],
+  "categories": {
+    "text": {
+      "planned": 129
+    },
+    "images": {
+      "planned": 0
+    },
+    "links": {
+      "planned": 24
+    },
+    "collections": {
+      "planned": 0
+    },
+    "backgrounds": {
+      "planned": 0
+    },
+    "componentProps": {
+      "planned": 0
+    }
+  }
+}

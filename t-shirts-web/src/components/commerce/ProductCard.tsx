@@ -145,7 +145,7 @@ export function ProductCard({ product, priority = false }: ProductCardProps) {
             <button
               key={c.name}
               onClick={() => setSelectedColor(c.name)}
-              data-preview-static="color-swatch"
+              data-preview-field-type="color"
               className={`h-3 w-3 rounded-full border transition-all ${
                 selectedColor === c.name
                   ? 'ring-1 ring-black dark:ring-white scale-110 border-white'

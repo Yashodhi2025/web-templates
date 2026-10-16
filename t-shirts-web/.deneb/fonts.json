@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "installedAt": "2026-10-16T07:14:57.506Z",
+  "fonts": [
+    {
+      "id": "outfit",
+      "fontsourcePackage": "outfit",
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "variable": true
+    },
+    {
+      "id": "inter",
+      "fontsourcePackage": "inter",
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "variable": true
+    }
+  ]
+}

@@ -1,0 +1,3713 @@
+{
+  "runId": "arc-2026-10-16T07-13-50-160Z",
+  "timestamp": "2026-10-16T07:13:50.160Z",
+  "projectName": "t-shirts-web",
+  "outcome": "success",
+  "scorecard": {
+    "contractValidity": "100%",
+    "editabilityCoverage": "100%",
+    "visualBound": "316/316",
+    "designPreservation": "99.7%",
+    "runtimeEditability": "100%"
+  },
+  "runtimeVerification": {
+    "mode": "in-process-contract-simulation",
+    "passed": true,
+    "totalTested": 266,
+    "verifiedCount": 266,
+    "failedCount": 0,
+    "runtimeEditabilityScore": 100,
+    "verifiedFields": [
+      "common.websiteTitle",
+      "common.shortDescription",
+      "common.logoUrl",
+      "common.headerCtaLabel",
+      "common.copyright",
+      "common.navLabels.home",
+      "common.navLabels.products_detail",
+      "common.business.phone",
+      "common.business.whatsapp",
+      "common.business.email",
+      "common.header.logoText",
+      "common.header.collectionsLabel",
+      "common.header.tShirtsLabel",
+      "common.footer.instagramUrl",
+      "common.footer.tiktokUrl",
+      "common.footer.youtubeUrl",
+      "common.footer.vantaAthleticClubLabel",
+      "common.footer.description",
+      "common.footer.welcomeClubCheckInboxConfirmation",
+      "common.footer.joinClubLabel",
+      "common.footer.subtitle",
+      "common.footer.newDropsUrl",
+      "common.footer.newDropsLabel",
+      "common.footer.tShirtsHeroUrl",
+      "common.footer.tShirtsHeroLabel",
+      "common.footer.oversizedFit280GsmUrl",
+      "common.footer.oversizedFit280GsmLabel",
+      "common.footer.performanceSeriesUrl",
+      "common.footer.performanceSeriesLabel",
+      "common.footer.theClassicsUrl",
+      "common.footer.theClassicsLabel",
+      "common.footer.blackSeriesUrl",
+      "common.footer.blackSeriesLabel",
+      "common.footer.islandwideDeliveryUrl",
+      "common.footer.islandwideDeliveryLabel",
+      "common.footer.item14DayReturnsExchangesUrl",
+      "common.footer.item14DayReturnsExchangesLabel",
+      "common.footer.sizeFitGuideUrl",
+      "common.footer.sizeFitGuideLabel",
+      "common.footer.trackOrderUrl",
+      "common.footer.trackOrderLabel",
+      "common.footer.clientConciergeUrl",
+      "common.footer.clientConciergeLabel",
+      "common.footer.ourPhilosophyUrl",
+      "common.footer.ourPhilosophyLabel",
+      "common.footer.materials280GsmCraftUrl",
+      "common.footer.materials280GsmCraftLabel",
+      "common.footer.flagshipStoreColomboUrl",
+      "common.footer.flagshipStoreColomboLabel",
+      "common.footer.sustainabilityStandardsUrl",
+      "common.footer.sustainabilityStandardsLabel",
+      "common.footer.careersStudioUrl",
+      "common.footer.careersStudioLabel",
+      "common.footer.vantaClubRadioUrl",
+      "common.footer.vantaClubRadioLabel",
+      "common.footer.title",
+      "common.footer.vantaAthleticsIncBuiltMovement",
+      "common.footer.privacyPolicyUrl",
+      "common.footer.privacyPolicyLabel",
+      "common.footer.termsServiceUrl",
+      "common.footer.termsServiceLabel",
+      "common.footer.cookiePreferencesUrl",
+      "common.footer.cookiePreferencesLabel",
+      "common.footer.joinClubPrivateReleasesSubheading",
+      "common.footer.enterEmailPlaceholder",
+      "common.footer.collectionsSubheading",
+      "common.footer.supportSubheading",
+      "common.footer.brandSubheading",
+      "common.footer.connectSubheading",
+      "common.navigation.editorialSeriesLabel",
+      "home.sortLabel",
+      "home.error404Label",
+      "home.title",
+      "home.description",
+      "home.returnHomeLabel",
+      "home.checkBackSoon",
+      "home.foundationLabel",
+      "home.showingPieces",
+      "home.subtitle",
+      "home.resetAllFiltersLabel",
+      "home.yourBagLabel",
+      "home.addFreeDeliveryLabel",
+      "home.freeIslandwideShippingUnlockedLabel",
+      "home.description6",
+      "home.startShoppingLabel",
+      "home.estimatedDeliveryLabel",
+      "home.totalLabel",
+      "home.proceedCheckoutLabel",
+      "home.continueShoppingLabel",
+      "home.quickAddLabel",
+      "home.selectSize",
+      "home.vantaAthleticsSearchLabel",
+      "home.popularLabel",
+      "home.subtitle2",
+      "home.description7",
+      "home.savedPiecesLabel",
+      "home.subtitle3",
+      "home.shop.exploreCollectionUrl",
+      "home.shop.exploreCollectionLabel",
+      "home.provenStandardsLabel",
+      "home.sellersLabel",
+      "home.monochromeStandardLabel",
+      "home.seriesLabel",
+      "home.description8",
+      "home.performance01Label",
+      "home.performanceTeeLabel",
+      "home.description9",
+      "home.timelessArchitectureLabel",
+      "home.classicsLabel",
+      "home.description10",
+      "home.heritageStandardLabel",
+      "home.description11",
+      "home.hero.newSeason2026Drop01",
+      "home.hero.madeStayLabel",
+      "home.hero.description",
+      "home.hero.exploreTShirtsHeroUrl",
+      "home.hero.exploreTShirtsHeroLabel",
+      "home.hero.image",
+      "home.hero.title",
+      "home.latestDropLabel",
+      "home.latestLabel",
+      "home.editorialCampaignLabel",
+      "home.item026Label",
+      "home.description12",
+      "home.form.imageAlt",
+      "home.form.imageAlt2",
+      "home.form.imageAlt3",
+      "home.form.nameLabel",
+      "home.form.johnDoePlaceholder",
+      "home.form.emailLabel",
+      "home.form.johnExampleComPlaceholder",
+      "home.form.messageLabel",
+      "home.form.yourMessagePlaceholder",
+      "home.form.image",
+      "home.form.image2",
+      "home.form.image3",
+      "home.look01Oversized280Gsm",
+      "home.look02BoneCreamRelaxed",
+      "home.look03ClassicTailoredPima",
+      "home.about.microscopicIntegrityLabel",
+      "home.about.description",
+      "home.about.materialHonestyLabel",
+      "home.about.betterLabel",
+      "home.about.description2",
+      "home.about.description3",
+      "home.about.description4",
+      "home.about.description5",
+      "home.about.image",
+      "home.about.heading",
+      "home.about.item01HeavyweightFabric280Gsm",
+      "home.about.item02EngineeredAnatomicalFitSubheading",
+      "home.about.item03BuiltEnduranceSubheading",
+      "home.curatedPaletteLabel",
+      "home.colorLabel2",
+      "home.tailoredAnatomyLabel",
+      "home.fitLabel",
+      "home.description13",
+      "home.categoryHeroLabel",
+      "home.activityMatrixLabel",
+      "home.motionLabel",
+      "home.description14",
+      "home.testimonials.verifiedFeedbackLabel",
+      "home.testimonials.heading",
+      "home.testimonials.communityFitAssessmentLabel",
+      "home.testimonials.item94RateTrueSizeLabel",
+      "home.testimonials.runsSmallLabel",
+      "home.testimonials.trueSizeLabel",
+      "home.testimonials.runsLargeLabel",
+      "home.testimonials.basedVerifiedPurchasesLabel",
+      "home.testimonials.verifiedBuyerLabel",
+      "home.testimonials.sizeLabel",
+      "home.testimonials.fitLabel",
+      "home.testimonials.helpfulLabel",
+      "home.fitSizingSpecificationsLabel",
+      "home.campaignModel621882",
+      "home.measurementsLabel",
+      "home.cmLabel",
+      "home.inchesLabel",
+      "home.howMeasureLabel",
+      "home.measureAroundFullestPartChest",
+      "home.chestLabel",
+      "home.measureHighestPointShoulderCollar",
+      "home.lengthLabel",
+      "home.measureStraightAcrossBackShoulder",
+      "home.shoulderLabel",
+      "home.measureShoulderSeamDownOuter",
+      "home.sleeveLabel",
+      "home.title2",
+      "home.filtersLabel",
+      "home.activeLabel",
+      "home.fitLabel2",
+      "home.clearAllLabel",
+      "home.featured",
+      "home.newestDrops",
+      "home.bestSellers",
+      "home.priceLowHigh",
+      "home.priceHighLow",
+      "home.silhouetteFitSubheading",
+      "home.colorPaletteSubheading",
+      "home.disciplineActivitySubheading",
+      "home.filtersLabel2",
+      "home.fitSubheading",
+      "home.fitLabel3",
+      "home.colorsSubheading",
+      "home.resetLabel",
+      "home.applyLabel",
+      "home.lkrLabel5",
+      "home.yourBagEmptySubheading",
+      "home.sizeLabel3",
+      "home.lkrLabel6",
+      "home.subtotalLabel",
+      "home.lkrLabel7",
+      "home.lkrLabel8",
+      "home.newLabel",
+      "home.popularLabel2",
+      "home.fitLabel5",
+      "home.gsmLabel2",
+      "home.lkrLabel9",
+      "home.lkrLabel10",
+      "home.whatLookingPlaceholder",
+      "home.forLabel",
+      "home.viewAllCatalog",
+      "home.fitGsmLabel",
+      "home.lkrLabel11",
+      "home.yourWishlistEmptySubheading",
+      "home.fitLabel6",
+      "home.gsmLabel3",
+      "home.lkr",
+      "home.moveBagSizeMLabel",
+      "home.heading",
+      "home.heading2",
+      "home.image",
+      "home.heading3",
+      "home.heading4",
+      "home.image2",
+      "home.refinedTennisTrackHeritageSubheading",
+      "home.heading5",
+      "home.heading6",
+      "home.heading7",
+      "home.noPiecesCurrentlyStockCheck",
+      "home.heading8",
+      "home.heading9",
+      "home.navigation.featuredSubheading",
+      "home.navigation.shopApparelSubheading",
+      "home.navigation.shopActivitySubheading",
+      "home.navigation.logoText",
+      "home.navigation.newDropsLabel",
+      "home.navigation.latestLabel",
+      "home.navigation.tShirtsHeroLabel",
+      "home.navigation.oversizedTees280Gsm",
+      "home.navigation.classicFitTees",
+      "home.navigation.performanceTeesDryTech",
+      "home.navigation.blackSeriesLabel",
+      "home.navigation.sportRunningLabel",
+      "home.navigation.searchCatalogLabel",
+      "home.navigation.savedPiecesLabel",
+      "home.navigation.shoppingBagLabel",
+      "home.navigation.builtMovementDesignedEverywhere",
+      "home.gallery.ofLabel",
+      "home.garmentMeasurementsGuideSubheading",
+      "home.silhouetteProfileFitLabel",
+      "home.size",
+      "home.chestWidth",
+      "home.bodyLength",
+      "home.shoulder",
+      "home.sleeveLength"
+    ],
+    "failedFields": [],
+    "collectionResults": [
+      {
+        "path": "common.NAV_LINKS",
+        "hasListMarker": true,
+        "hasItemMarker": true,
+        "passed": true
+      },
+      {
+        "path": "home.SWATCH_COLORS",
+        "hasListMarker": true,
+        "hasItemMarker": true,
+        "passed": true
+      },
+      {
+        "path": "home.SPEC_PILLS",
+        "hasListMarker": true,
+        "hasItemMarker": true,
+        "passed": true
+      },
+      {
+        "path": "home.SWATCH_COLORS2",
+        "hasListMarker": true,
+        "hasItemMarker": true,
+        "passed": true
+      },
+      {
+        "path": "home.FITS",
+        "hasListMarker": true,
+        "hasItemMarker": true,
+        "passed": true
+      },
+      {
+        "path": "home.ACTIVITIES",
+        "hasListMarker": true,
+        "hasItemMarker": true,
+        "passed": true
+      },
+      {
+        "path": "home.galleryList",
+        "hasListMarker": true,
+        "hasItemMarker": true,
+        "passed": true
+      },
+      {
+        "path": "home.sampleReviews",
+        "hasListMarker": true,
+        "hasItemMarker": true,
+        "passed": true
+      }
+    ]
+  },
+  "diagnosticsBySeverity": {
+    "info": 338,
+    "warning": 15,
+    "error": 65,
+    "blocking": 0
+  },
+  "unresolvedCount": 418,
+  "unresolved": [
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "114:16:118:126",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "120:16:124:119",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "127:14:136:19",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "131:94:135:112",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "137:14:141:236",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "145:14:148:114",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "148:115:148:202",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.16999999999999998,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "158:10:172:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "162:12:162:53",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "163:12:166:104",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "168:14:170:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "178:16:182:107",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "184:18:191:27",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.22,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "189:20:189:196",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "190:20:190:45",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.12000000000000001,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "194:18:201:27",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.22,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "199:20:199:36",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.16999999999999998,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "200:20:200:45",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.12000000000000001,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "204:18:211:27",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.22,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "209:20:209:36",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.16999999999999998,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "210:20:210:45",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.12000000000000001,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "213:16:218:115",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "231:75:231:250",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "232:73:232:261",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "233:77:233:265",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "234:76:237:117",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "238:77:241:117",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "252:14:256:124",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "273:20:273:84",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.16999999999999998,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "281:14:285:120",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "304:22:304:84",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.16999999999999998,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "313:14:317:134",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "336:20:336:89",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.16999999999999998,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "347:16:351:134",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "352:16:357:130",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "372:8:452:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "373:10:376:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "377:10:451:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "378:12:387:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "379:14:383:107",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "384:14:386:23",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "385:16:385:41",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "390:12:434:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "391:14:410:20",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "392:16:396:103",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "397:16:409:22",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "399:20:407:28",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "400:22:405:24",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "406:22:406:200",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "412:14:433:20",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "413:16:417:109",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "418:16:432:22",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "420:20:430:29",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "436:12:450:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.12000000000000001,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "437:14:442:106",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/app/collections/[slug]/CollectionClient.tsx",
+      "loc": "443:14:449:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "40:12:44:105",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "45:12:47:19",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "54:12:54:37",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "62:14:70:220",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "66:121:70:139",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "72:14:77:163",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "77:16:77:55",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "79:12:79:112",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "94:16:94:51",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "96:14:100:124",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "101:14:105:180",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "106:14:111:123",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "138:22:144:31",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "143:24:143:58",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "148:22:148:55",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "149:22:149:65",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "150:22:154:128",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "161:22:167:31",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "166:24:166:53",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "168:22:168:108",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "169:22:175:31",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "174:24:174:52",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "178:20:183:27",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "196:16:199:110",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "200:16:204:132",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "207:16:210:129",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "211:16:213:23",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "218:14:222:102",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "223:14:228:21",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "237:14:240:126",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "241:14:241:48",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/CartDrawer.tsx",
+      "loc": "244:12:249:127",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "38:10:42:94",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "43:10:47:103",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "61:10:65:12",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "101:12:109:113",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "113:16:113:200",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "117:18:132:27",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "163:10:163:196",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "165:10:165:196",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "179:10:184:17",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/ProductCard.tsx",
+      "loc": "185:10:190:17",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "46:8:50:128",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "56:10:56:35",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "64:12:64:57",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "65:12:72:70",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "78:16:78:41",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "86:10:90:103",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "92:12:98:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "108:14:114:21",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "121:18:124:124",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "124:125:124:159",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "132:14:136:110",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "137:14:141:179",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "162:20:168:27",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "169:20:171:25",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.15,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/SearchOverlay.tsx",
+      "loc": "172:20:177:27",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "32:12:36:113",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "37:12:39:19",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "46:12:46:37",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "55:16:55:45",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "57:14:61:134",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "62:14:66:157",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "67:14:78:18",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "74:16:77:135",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "103:22:109:31",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "108:24:108:58",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "113:22:113:222",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "113:223:113:266",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "113:267:113:453",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "117:22:117:177",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "121:18:133:27",
+      "type": "text",
+      "reason": "existing-dynamic-or-api-data",
+      "confidence": 0.2,
+      "severity": "WARNING"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "128:20:128:59",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/commerce/WishlistDrawer.tsx",
+      "loc": "129:20:132:130",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "27:8:32:101",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "33:8:37:67",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "38:24:38:91",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "42:8:47:103",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "48:8:53:74",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "54:25:54:93",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "58:8:63:107",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "64:8:68:71",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "69:27:69:97",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/examples/contact-form.tsx",
+      "loc": "72:6:78:15",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BestSellers.tsx",
+      "loc": "19:12:23:121",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BestSellers.tsx",
+      "loc": "24:12:33:17",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BestSellers.tsx",
+      "loc": "28:89:32:104",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BestSellers.tsx",
+      "loc": "41:12:41:102",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BestSellers.tsx",
+      "loc": "42:12:42:93",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BlackSeries.tsx",
+      "loc": "19:12:23:127",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BlackSeries.tsx",
+      "loc": "24:12:33:17",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BlackSeries.tsx",
+      "loc": "28:91:32:102",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BlackSeries.tsx",
+      "loc": "34:12:38:196",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BlackSeries.tsx",
+      "loc": "46:12:46:95",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/BlackSeries.tsx",
+      "loc": "47:12:47:93",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/CampaignSection.tsx",
+      "loc": "15:8:21:49",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/CampaignSection.tsx",
+      "loc": "27:8:31:115",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/CampaignSection.tsx",
+      "loc": "34:8:44:13",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/CampaignSection.tsx",
+      "loc": "39:10:43:117",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/CampaignSection.tsx",
+      "loc": "47:8:51:242",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/CampaignSection.tsx",
+      "loc": "59:10:59:100",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/CampaignSection.tsx",
+      "loc": "60:10:60:91",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "21:12:25:131",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "26:12:35:17",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "30:89:34:106",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "36:12:40:228",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "49:14:49:100",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.16999999999999998,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "50:14:50:95",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.12000000000000001,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "59:12:65:54",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "68:14:72:125",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "73:14:77:152",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ClassicCollection.tsx",
+      "loc": "78:14:82:179",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "74:8:81:54",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "96:12:99:135",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "103:10:114:15",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "109:12:113:117",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "117:10:122:239",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "131:14:131:103",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "132:14:132:95",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "135:12:145:19",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Hero.tsx",
+      "loc": "141:14:144:139",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LatestDrop.tsx",
+      "loc": "20:12:24:111",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LatestDrop.tsx",
+      "loc": "25:12:34:17",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LatestDrop.tsx",
+      "loc": "29:94:33:102",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LatestDrop.tsx",
+      "loc": "42:12:42:102",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LatestDrop.tsx",
+      "loc": "43:12:43:93",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "16:12:20:125",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "21:12:30:17",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "25:94:29:100",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "31:12:35:200",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "43:12:43:105",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.16999999999999998,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "44:12:44:93",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.12000000000000001,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "52:12:58:58",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "60:14:63:145",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "70:14:76:61",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "78:16:81:145",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "86:14:92:61",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/LookbookSection.tsx",
+      "loc": "94:16:97:145",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/Marquee.tsx",
+      "loc": "20:12:22:19",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "24:12:30:59",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "33:14:37:140",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "38:14:42:208",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "48:12:52:128",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "53:12:62:17",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "57:96:61:109",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "63:12:67:296",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "72:16:76:156",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "77:16:81:195",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "85:16:89:163",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "90:16:94:206",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "98:16:102:148",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "103:16:107:218",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "120:20:120:101",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ProductStory.tsx",
+      "loc": "121:20:121:77",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "24:12:28:119",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "29:12:38:17",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "33:93:37:101",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "60:18:69:25",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "84:14:87:165",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "98:12:98:125",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByColor.tsx",
+      "loc": "99:12:99:50",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "40:10:44:119",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "45:10:54:15",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "49:93:53:94",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "55:10:59:202",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "83:16:87:119",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "88:16:90:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "91:16:93:20",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "100:18:100:104",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/ShopByFit.tsx",
+      "loc": "101:18:101:103",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "54:12:58:119",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "59:12:68:17",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "63:94:67:102",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "71:10:75:178",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "99:18:101:23",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.16999999999999998,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "102:18:104:22",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.16999999999999998,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/home/SportCollection.tsx",
+      "loc": "108:18:108:52",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.12000000000000001,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/AnnouncementBar.tsx",
+      "loc": "20:8:22:12",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "27:12:31:136",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "32:12:36:160",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "37:12:41:213",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "47:16:47:67",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "48:16:51:187",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "55:16:62:82",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "67:18:70:123",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "71:18:71:52",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "75:12:79:179",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "87:12:91:125",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "94:16:104:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "100:18:103:123",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "107:16:117:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "113:18:116:132",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "120:16:130:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "126:18:129:147",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "133:16:143:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "139:18:142:141",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "146:16:156:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "152:18:155:129",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "159:16:169:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "165:18:168:129",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "176:12:180:117",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "183:16:193:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "189:18:192:143",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "196:16:206:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "202:18:205:157",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "209:16:219:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "215:18:218:134",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "222:16:232:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "228:18:231:132",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "235:16:245:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "241:18:244:137",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "252:12:256:113",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "259:16:269:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "265:18:268:133",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "272:16:282:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "278:18:281:151",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "285:16:295:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "291:18:294:150",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "298:16:308:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "304:18:307:153",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "311:16:321:23",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "317:18:320:135",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "328:12:332:117",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "368:16:380:20",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "376:18:379:136",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "388:10:392:101",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "398:12:398:82",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "399:12:402:190",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "405:12:415:19",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "411:14:414:129",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "416:12:426:19",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "422:14:425:130",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "427:12:437:19",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Footer.tsx",
+      "loc": "433:14:436:137",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "44:12:51:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "50:14:50:42",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "63:14:67:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "114:14:114:58",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "118:12:130:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "124:14:124:57",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "126:16:128:23",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "133:12:145:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "139:14:139:63",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/Header.tsx",
+      "loc": "141:16:143:23",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "28:12:32:121",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "41:20:41:45",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "43:22:45:29",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "55:12:59:128",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "68:20:68:45",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "70:22:72:29",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "82:12:86:133",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "118:16:122:139",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "123:16:125:21",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "126:16:128:20",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "130:18:130:56",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MegaMenu.tsx",
+      "loc": "131:18:131:52",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "21:4:197:10",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "23:6:37:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "24:8:29:15",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "25:10:28:118",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "30:8:36:17",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "35:10:35:35",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "40:6:188:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "41:8:128:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "42:10:127:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "43:12:57:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "48:14:51:121",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "52:14:56:116",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "59:12:69:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "64:14:67:130",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "68:14:68:63",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "71:12:102:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "72:14:81:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "77:16:80:146",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "82:14:91:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "87:16:90:133",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "92:14:101:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "97:16:100:152",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "104:12:114:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "109:14:112:127",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "113:14:113:63",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "116:12:126:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "121:14:124:131",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "125:14:125:63",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "131:8:187:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "132:10:144:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "139:12:139:42",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "140:12:143:129",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "146:10:165:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "153:12:159:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "154:14:154:43",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "155:14:158:127",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "161:14:163:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "167:10:186:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "174:12:180:18",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "175:14:175:49",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "176:14:179:127",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "182:14:184:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "191:6:196:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/layout/MobileMenu.tsx",
+      "loc": "192:8:195:168",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "91:14:91:47",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "98:6:166:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "100:8:142:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "104:10:111:12",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "113:10:115:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "117:10:119:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "118:36:118:79",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "122:10:131:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "130:12:130:47",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "132:10:141:19",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "140:12:140:48",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "145:8:165:14",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "147:12:163:21",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "156:14:162:16",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "176:12:182:19",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "188:14:188:39",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "198:12:198:47",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductGallery.tsx",
+      "loc": "205:12:205:48",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "99:12:103:137",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "104:12:108:120",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "111:12:111:105",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "115:18:115:90",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "118:14:123:21",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "131:12:135:150",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "136:12:140:143",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "158:12:161:123",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "162:12:166:124",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "167:12:170:123",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "191:24:191:96",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "194:20:199:158",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "199:22:199:72",
+      "type": "decoration",
+      "reason": "hidden-element-strict-contract",
+      "confidence": 0.1,
+      "severity": "ERROR"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "203:18:205:23",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "208:18:210:22",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "214:20:219:27",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "220:20:225:27",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "231:18:231:46",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "239:20:239:52",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/ProductReviews.tsx",
+      "loc": "240:20:243:137",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "60:12:64:140",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "65:12:69:143",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "76:12:76:37",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "82:10:87:17",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "88:10:90:14",
+      "type": "text",
+      "reason": "non-literal-expression",
+      "confidence": 0.15,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "92:12:92:60",
+      "type": "decoration",
+      "reason": "decorative-icon",
+      "confidence": 0.1,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "93:12:96:162",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "102:10:106:112",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "108:12:117:98",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "118:12:127:106",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "136:16:140:95",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "141:16:145:108",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "146:16:150:108",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "151:16:155:103",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "156:16:160:112",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "179:10:183:112",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "186:14:190:103",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "190:104:193:198",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "196:14:200:105",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "200:106:203:199",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "206:14:210:109",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "210:110:213:193",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "216:14:220:105",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    },
+    {
+      "file": "src/components/product/SizeGuideModal.tsx",
+      "loc": "220:106:223:180",
+      "type": "already-editable",
+      "reason": "already-has-preview-binding",
+      "confidence": 0.99,
+      "severity": "INFO"
+    }
+  ],
+  "categories": {
+    "text": {
+      "planned": 6
+    },
+    "images": {
+      "planned": 0
+    },
+    "links": {
+      "planned": 3
+    },
+    "collections": {
+      "planned": 8
+    },
+    "backgrounds": {
+      "planned": 0
+    },
+    "componentProps": {
+      "planned": 0
+    }
+  }
+}

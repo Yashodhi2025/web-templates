@@ -16,67 +16,12 @@
       "common.business.phone",
       "common.business.whatsapp",
       "common.copyright",
-      "common.footer.instagramVantaAthletics",
-      "common.footer.tiktok",
-      "common.footer.welcomeClubCheckInboxConfirmation",
-      "common.footer.youtube",
-      "common.header.collectionsLabel",
-      "common.header.tShirtsLabel",
-      "common.header.tShirtsLabel2",
-      "common.header.tShirtsUrl",
-      "common.header.vantaathleticsLabel",
       "common.headerCtaLabel",
       "common.logoUrl",
       "common.navLabels.home",
-      "common.navigation.editorialSeriesLabel",
+      "common.navLabels.products_detail",
       "common.shortDescription",
       "common.websiteTitle",
-      "home.activeLabel",
-      "home.addBagLabel",
-      "home.addFreeDeliveryLabel",
-      "home.applyLabel",
-      "home.bestSellers",
-      "home.bodyLength",
-      "home.campaignModel62188",
-      "home.campaignModel621882",
-      "home.careLongevityLabel",
-      "home.chestLabel",
-      "home.chestWidth",
-      "home.clearAllLabel",
-      "home.cmLabel",
-      "home.colorLabel",
-      "home.colorPaletteSubheading",
-      "home.colorsSubheading",
-      "home.completeLookSubheading",
-      "home.continueShoppingLabel",
-      "home.curatedPairingsLabel",
-      "home.deliveryHassleFreeReturnsLabel",
-      "home.description",
-      "home.description2",
-      "home.description3",
-      "home.description4",
-      "home.description5",
-      "home.description6",
-      "home.description7",
-      "home.disciplineActivitySubheading",
-      "home.discoverPerformanceLabel",
-      "home.error404Label",
-      "home.estimatedDeliveryLabel",
-      "home.exploreClassicsLabel",
-      "home.exploreSilhouetteLabel",
-      "home.fabricEngineeringSpecificationsLabel",
-      "home.fabricWeight",
-      "home.featured",
-      "home.filtersLabel",
-      "home.filtersLabel2",
-      "home.fitGsmLabel",
-      "home.fitLabel2",
-      "home.fitLabel3",
-      "home.fitLabel4",
-      "home.fitLabel6",
-      "home.fitSizingSpecificationsLabel",
-      "home.fitSubheading",
-      "home.forLabel",
       "home.form.emailLabel",
       "home.form.image",
       "home.form.image2",
@@ -88,118 +33,7 @@
       "home.form.johnExampleComPlaceholder",
       "home.form.messageLabel",
       "home.form.nameLabel",
-      "home.form.yourMessagePlaceholder",
-      "home.foundationLabel",
-      "home.freeIslandwideDeliveryLabel",
-      "home.freeIslandwideShippingUnlockedLabel",
-      "home.gallery.ofLabel",
-      "home.garmentMeasurementsGuideSubheading",
-      "home.gsmLabel",
-      "home.gsmLabel3",
-      "home.hero.shopNewArrivalsLabel",
-      "home.howMeasureLabel",
-      "home.inStockDispatched24Hours",
-      "home.inchesLabel",
-      "home.instantCheckoutLabel",
-      "home.lengthLabel",
-      "home.lkr",
-      "home.lkrLabel",
-      "home.lkrLabel11",
-      "home.lkrLabel2",
-      "home.lkrLabel3",
-      "home.lkrLabel4",
-      "home.lkrLabel5",
-      "home.lkrLabel6",
-      "home.lkrLabel7",
-      "home.lkrLabel8",
-      "home.logoText",
-      "home.logoText2",
-      "home.logoText3",
-      "home.lowStockOnly3Items",
-      "home.material",
-      "home.measureAroundFullestPartChest",
-      "home.measureHighestPointShoulderCollar",
-      "home.measureShoulderSeamDownOuter",
-      "home.measureStraightAcrossBackShoulder",
-      "home.measurementsLabel",
-      "home.modelSizingLabel",
-      "home.moveBagSizeMLabel",
-      "home.navigation.blackSeriesLabel",
-      "home.navigation.builtMovementDesignedEverywhere",
-      "home.navigation.classicFitTees",
-      "home.navigation.featuredSubheading",
-      "home.navigation.latestLabel",
-      "home.navigation.logoText",
-      "home.navigation.newDropsLabel",
-      "home.navigation.oversizedTees280Gsm",
-      "home.navigation.performanceTeesDryTech",
-      "home.navigation.savedPiecesLabel",
-      "home.navigation.searchCatalogLabel",
-      "home.navigation.shopActivitySubheading",
-      "home.navigation.shopApparelSubheading",
-      "home.navigation.shoppingBagLabel",
-      "home.navigation.sportRunningLabel",
-      "home.navigation.tShirtsHeroLabel",
-      "home.newestDrops",
-      "home.noPiecesCurrentlyStockCheck",
-      "home.pleaseSelectSizeLabel",
-      "home.popularLabel",
-      "home.priceHighLow",
-      "home.priceLowHigh",
-      "home.proceedCheckoutLabel",
-      "home.resetAllFiltersLabel",
-      "home.resetLabel",
-      "home.savedPiecesLabel",
-      "home.selectSize",
-      "home.shop.exploreCollectionLabel",
-      "home.shop.exploreCollectionUrl",
-      "home.shopBlackSeriesLabel",
-      "home.shoulder",
-      "home.shoulderLabel",
-      "home.showingPieces",
-      "home.silhouetteFitSubheading",
-      "home.silhouetteProfileFitLabel",
-      "home.silhouetteProportionsLabel",
-      "home.size",
-      "home.sizeGuideLabel",
-      "home.sizeLabel",
-      "home.sizeLabel2",
-      "home.sizeLabel3",
-      "home.sleeveLabel",
-      "home.sleeveLength",
-      "home.startShoppingLabel",
-      "home.subtitle",
-      "home.subtitle2",
-      "home.subtitle3",
-      "home.subtitle4",
-      "home.subtotalLabel",
-      "home.testimonials.basedVerifiedPurchasesLabel",
-      "home.testimonials.communityFitAssessmentLabel",
-      "home.testimonials.fitLabel",
-      "home.testimonials.heading",
-      "home.testimonials.helpfulLabel",
-      "home.testimonials.item94RateTrueSizeLabel",
-      "home.testimonials.runsLargeLabel",
-      "home.testimonials.runsSmallLabel",
-      "home.testimonials.sizeLabel",
-      "home.testimonials.trueSizeLabel",
-      "home.testimonials.verifiedBuyerLabel",
-      "home.testimonials.verifiedFeedbackLabel",
-      "home.title",
-      "home.title2",
-      "home.totalLabel",
-      "home.vantaAthleticsSearchLabel",
-      "home.viewAllBestSellersLabel",
-      "home.viewAllCatalog",
-      "home.viewAllNewArrivalsLabel",
-      "home.viewAllPiecesLabel",
-      "home.viewAllTShirtsLabel",
-      "home.viewAllTShirtsUrl",
-      "home.viewCompleteLookbookLabel",
-      "home.whatLookingPlaceholder",
-      "home.yourBagEmptySubheading",
-      "home.yourBagLabel",
-      "home.yourWishlistEmptySubheading"
+      "home.form.yourMessagePlaceholder"
     ]
   },
   "siteDataFile": "src/data/site-data.json",
@@ -213,6 +47,11 @@
       "label": "Home",
       "route": "/",
       "required": true
+    },
+    {
+      "id": "products_detail",
+      "label": "Products Detail",
+      "route": "/products/detail"
     }
   ],
   "editorSchema": {
@@ -291,6 +130,11 @@
                 "key": "vantaathleticsLabel",
                 "type": "text",
                 "label": "Vantaathletics Label"
+              },
+              {
+                "key": "logoText",
+                "type": "text",
+                "label": "Logo Text"
               }
             ]
           },
@@ -578,6 +422,21 @@
                 "key": "youtube",
                 "type": "text",
                 "label": "Youtube"
+              },
+              {
+                "key": "instagramUrl",
+                "type": "text",
+                "label": "Instagram Url"
+              },
+              {
+                "key": "tiktokUrl",
+                "type": "text",
+                "label": "Tiktok Url"
+              },
+              {
+                "key": "youtubeUrl",
+                "type": "text",
+                "label": "Youtube Url"
               }
             ]
           },
@@ -590,6 +449,27 @@
                 "key": "editorialSeriesLabel",
                 "type": "text",
                 "label": "Editorial Series Label"
+              }
+            ]
+          },
+          {
+            "key": "NAV_LINKS",
+            "type": "list",
+            "label": "N A V  L I N K S",
+            "itemLabel": "N A V  L I N K S",
+            "itemType": "object",
+            "minItems": 0,
+            "maxItems": 12,
+            "fields": [
+              {
+                "key": "href",
+                "type": "url",
+                "label": "Href"
+              },
+              {
+                "key": "highlight",
+                "type": "text",
+                "label": "Highlight"
               }
             ]
           }
@@ -1824,6 +1704,193 @@
             "key": "logoText3",
             "type": "text",
             "label": "Logo Text3"
+          },
+          {
+            "key": "sortLabel",
+            "type": "text",
+            "label": "Sort Label"
+          },
+          {
+            "key": "SWATCH_COLORS",
+            "type": "list",
+            "label": "S W A T C H  C O L O R S",
+            "itemLabel": "S W A T C H  C O L O R S",
+            "itemType": "object",
+            "minItems": 0,
+            "maxItems": 12,
+            "fields": [
+              {
+                "key": "name",
+                "type": "text",
+                "label": "Name"
+              }
+            ]
+          },
+          {
+            "key": "returnHomeLabel",
+            "type": "text",
+            "label": "Return Home Label"
+          },
+          {
+            "key": "SPEC_PILLS",
+            "type": "list",
+            "label": "S P E C  P I L L S",
+            "itemLabel": "S P E C  P I L L S",
+            "itemType": "object",
+            "minItems": 0,
+            "maxItems": 12,
+            "fields": [
+              {
+                "key": "label",
+                "type": "text",
+                "label": "Label"
+              }
+            ]
+          },
+          {
+            "key": "SWATCH_COLORS2",
+            "type": "list",
+            "label": "S W A T C H  C O L O R S2",
+            "itemLabel": "S W A T C H  C O L O R S2",
+            "itemType": "object",
+            "minItems": 0,
+            "maxItems": 12,
+            "fields": [
+              {
+                "key": "name",
+                "type": "text",
+                "label": "Name"
+              }
+            ]
+          },
+          {
+            "key": "FITS",
+            "type": "list",
+            "label": "F I T S",
+            "itemLabel": "F I T S",
+            "itemType": "object",
+            "minItems": 0,
+            "maxItems": 12,
+            "fields": [
+              {
+                "key": "image",
+                "type": "image",
+                "label": "Image"
+              },
+              {
+                "key": "title",
+                "type": "text",
+                "label": "Title"
+              },
+              {
+                "key": "tagline",
+                "type": "text",
+                "label": "Tagline"
+              },
+              {
+                "key": "href",
+                "type": "url",
+                "label": "Href"
+              }
+            ]
+          },
+          {
+            "key": "ACTIVITIES",
+            "type": "list",
+            "label": "A C T I V I T I E S",
+            "itemLabel": "A C T I V I T I E S",
+            "itemType": "object",
+            "minItems": 0,
+            "maxItems": 12,
+            "fields": [
+              {
+                "key": "href",
+                "type": "url",
+                "label": "Href"
+              },
+              {
+                "key": "image",
+                "type": "image",
+                "label": "Image"
+              },
+              {
+                "key": "title",
+                "type": "text",
+                "label": "Title"
+              },
+              {
+                "key": "tagline",
+                "type": "text",
+                "label": "Tagline"
+              }
+            ]
+          },
+          {
+            "key": "galleryList",
+            "type": "list",
+            "label": "Gallery List",
+            "itemLabel": "Gallery List",
+            "itemType": "object",
+            "minItems": 0,
+            "maxItems": 12,
+            "fields": [
+              {
+                "key": "src",
+                "type": "image",
+                "label": "Src"
+              },
+              {
+                "key": "label",
+                "type": "text",
+                "label": "Label"
+              }
+            ]
+          },
+          {
+            "key": "sampleReviews",
+            "type": "list",
+            "label": "Sample Reviews",
+            "itemLabel": "Sample Review",
+            "itemType": "object",
+            "minItems": 0,
+            "maxItems": 12,
+            "fields": [
+              {
+                "key": "title",
+                "type": "text",
+                "label": "Title"
+              },
+              {
+                "key": "comment",
+                "type": "textarea",
+                "label": "Comment"
+              },
+              {
+                "key": "sizePurchased",
+                "type": "text",
+                "label": "Size Purchased"
+              },
+              {
+                "key": "fitFeedback",
+                "type": "text",
+                "label": "Fit Feedback"
+              },
+              {
+                "key": "author",
+                "type": "text",
+                "label": "Author"
+              },
+              {
+                "key": "rating",
+                "type": "number",
+                "label": "Rating"
+              }
+            ]
+          },
+          {
+            "key": "checkBackSoon",
+            "type": "text",
+            "label": "Check Back Soon"
           }
         ]
       },
